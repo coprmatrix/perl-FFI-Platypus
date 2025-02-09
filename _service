@@ -1,5 +1,6 @@
 <services>
   <service name="cpanspec" mode="manual">
     <param name="source">FFI::Platypus</param>
+    <param name="add_buildrequires">FindBin</param>
   </service>
 </services>
