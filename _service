@@ -2,5 +2,8 @@
   <service name="cpanspec" mode="manual">
     <param name="source">FFI::Platypus</param>
     <param name="add-buildrequires">perl(FindBin)</param>
+    <param name="add-buildrequires">perl(forks)</param>
+    <param name="add-buildrequires">perl(open)</param>
+    <param name="add-buildrequires">perl(Devel::Hide)</param>
   </service>
 </services>
